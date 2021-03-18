@@ -17,7 +17,7 @@ where 1, 2, 3 are user ids. This method should return the number of devices to w
 
 To send notifications to users, you can use the `Messenger` class in the file `messenger.rb`. See the documentation within the class for parameters and return values. This is a mock version of Firebase's cloud messaging api which we've included so you don't have to deal with setting up Firebase.
 
-You should also create an SQL database and the tables to support your PushNotifier class, including a users table (you can populate with fake users) and a device_tokens table.
+You should also create a SQL database and the tables to support your PushNotifier class, including a users table (you can populate with fake users) and a device_tokens table.
 
 A user can have many device tokens (since a user can have many devices).
 
