@@ -15,7 +15,7 @@ We want a method/function that looks something like:
 `MessagingService.send_notifications([1, 2, 3], "This is a notification")`
 where 1, 2, 3 are user ids. This method should return the number of devices to which notifications were sent.
 
-To send notifications to users, you can use the `Messenger` class in the file `messenger.rb`. See the documentation within the class for parameters and return values. This is a mock version of Firebase's cloud messaging api which we've included so you don't have to deal with setting up Firebase.
+To send notifications to users, you can use the `Messenger` class in the file `messenger.rb`. See the documentation within the class for parameters and return values. This is a mock version of Firebase's cloud messaging api which we've included so you don't have to deal with setting up Firebase, so don't modify the internals of this file.
 
 You should also create a SQL database and the tables to support your PushNotifier class, including a users table (you can populate with fake users) and a device_tokens table.
 
