@@ -4,7 +4,7 @@
 The goal is to be able to send push notification messages to users given a list of user ids and to provide admins an easy way to generate that list of ids.
 
 ## Timeframe
-Please spend no more than 3 - 4 hours max on this project. There is no deadline.
+Please spend no more than 4 - 5 hours max on this project. There is no deadline.
 
 ## Implementation
 
